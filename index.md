@@ -69,4 +69,12 @@ summary(myData[,c('TypeText','DispositionText')])
 
 --- .class #id
 
+## Sample screen shot
+
 ![](assets/img/screen_shot.png)
+
+
+### Q: Can you infer from the screen show of the Shiny app what time bars are required by law to close in New Orleans ?
+
+
+A: Trick question, bars are not required to close in New Orleans and can stay open 24 hours a day, seven days a week.
