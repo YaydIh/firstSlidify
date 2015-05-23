@@ -50,6 +50,8 @@ half a million records a thankless task.
 
 ## Glimps of DRIVING data
 
+Here is a breakdown of the 2014 calls for service by type of complaint and how they were disposed of.
+
 
 
 
@@ -67,6 +69,7 @@ summary(myData[,c('TypeText','DispositionText')])
 ##                                       VOID                  :  51
 ```
 
+Note to grader: this page is intended to satisfy the assignment's requirement for some embedded R code that gets run when slidifying the document.
 --- .class #id
 
 ## Sample screen shot

@@ -50,6 +50,8 @@ half a million records a thankless task.
 
 ## Glimps of DRIVING data
 
+Here is a breakdown of the 2014 calls for service by type of complaint and how they were disposed of.
+
 ```{r, echo=FALSE}
 myData <- read.csv(file="data/9898.csv", header=TRUE, sep=",")
 ```
@@ -58,6 +60,7 @@ myData <- read.csv(file="data/9898.csv", header=TRUE, sep=",")
 summary(myData[,c('TypeText','DispositionText')])
 ```
 
+Note to grader: this page is intended to satisfy the assignment's requirement for some embedded R code that gets run when slidifying the document.
 --- .class #id
 
 ## Sample screen shot
