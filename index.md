@@ -1,6 +1,6 @@
 ---
-title       : Developing Data Products -- Class Project
-subtitle    : devdataprod-014 [ 2015-05-23 ]
+title       : Developing Data Products  
+subtitle    : Class Project -- devdataprod-014 [ 2015-05-23 ]
 author      : Mark Anderson
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
@@ -29,21 +29,21 @@ for the last year, 2014
 
 ## What I was curious about
 
-I want to explore the relative number of calls for DRIVING WHILE UNDER INFLUENCE & WRECKLESS DRIVING  based on hour of the day and day of the week.
+I wanted to explore the relative number of calls for DRIVING WHILE UNDER INFLUENCE & WRECKLESS DRIVING  based on hour of the day and day of the week.
 
-I chose to combine the data of the two categories, because without a traffic stop and gathering of further evidence, a person calling in such a complaint wouldn't really know the cause of the erratic driving.
+I chose to combine the data of the two categories, because without a traffic stop and gathering of further evidence, a person calling in such a complaint wouldn't usually know the cause of the erratic driving.
 
 
 
 ## Without the Shiny App
 
-While the data is made available for viewing on the official website, it
-isn't really that useful.
+While the data is made available for viewing on the official website, 
+the display as a spreadsheet isn't really that useful.
 
 First off, for 2014, there are 452640 entries in the online spreadsheet.
 
 Even with the ablity to sort by 'Type' of call, the disply window only
-shows 17 lines of the spread sheet at once, making scrolling within
+shows 17 lines of the spreadsheet at one time, making scrolling within
 half a million records a thankless task. 
 
 --- .class #id
@@ -77,8 +77,7 @@ summary(myData[,c('TypeText','DispositionText')])
 
 ![](assets/img/screen_shot.png)
 
-
-### Q: Can you infer from the screen show of the Shiny app what time bars are required by law to close in New Orleans ?
+### Q: Can you infer from the screen shot of the Shiny app at what time bars are required by law to close in New Orleans?
 
 
 A: Trick question, bars are not required to close in New Orleans and can stay open 24 hours a day, seven days a week.
