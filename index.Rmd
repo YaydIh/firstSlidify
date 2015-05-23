@@ -60,3 +60,4 @@ summary(myData[,c('TypeText','DispositionText')])
 
 --- .class #id
 
+![](assets/img/screen_shot.png)
