@@ -60,7 +60,8 @@ myData <- read.csv(file="data/9898.csv", header=TRUE, sep=",")
 summary(myData[,c('TypeText','DispositionText')])
 ```
 
-Note to grader: this page is intended to satisfy the assignment's requirement for some embedded R code that gets run when slidifying the document.
+[Note to grader: this page is intended to satisfy the assignment's requirement for some embedded R code that gets run when slidifying the document.]
+
 --- .class #id
 
 ## Sample screen shot

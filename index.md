@@ -69,7 +69,8 @@ summary(myData[,c('TypeText','DispositionText')])
 ##                                       VOID                  :  51
 ```
 
-Note to grader: this page is intended to satisfy the assignment's requirement for some embedded R code that gets run when slidifying the document.
+[Note to grader: this page is intended to satisfy the assignment's requirement for some embedded R code that gets run when slidifying the document.]
+
 --- .class #id
 
 ## Sample screen shot
